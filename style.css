@@ -1,0 +1,126 @@
+body {
+  font-family: "Helvetica";
+  background-color: #CDC0FF;
+  color: #24292f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.авочка {
+  margin: 10px 0px 0px 0px
+  }
+
+.имя {
+  margin: -150px 0px 0px 260px;
+  font-size: 40px;
+  line-height: 1;
+  font-family: "Geneva";
+}
+
+.подтекст {
+  margin: 0px 0px 10px 320px;
+  font-family: "Serif";
+}
+
+.инфа {
+  margin: 0px 0px 50px 250px;
+  font-size: 20px;
+  font-family: "Geneva";
+}
+
+.палочка {
+  margin: -150px 0px 60px 760px;
+}
+.блок {
+  width: 350px;
+}
+
+.блок {
+  font-family: "Serif";
+  font-size: 20px;
+  line-height: 1;
+  margin: -20px 0 30px 0px;
+}
+
+.навык {
+  margin: 0 0 0 -250px;
+  font-family: "Serif";
+  font-size: 30px;
+}
+
+.контра {
+  background-color: #FFF;
+  list-style-type: none;
+  border: 1px solid hsla(210, 18%, 87%, 1);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 20px 0px;
+  gap: 10px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  box-sizing: border-box;
+  margin: 0px 0px 0px -250px;
+}
+
+.что {
+   margin: 0;
+  min-width: 100px;
+}
+
+.links__container {
+  background-color: #FFF;
+  list-style-type: none;
+  border: 1px solid hsla(210, 18%, 87%, 1);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px 10px 10px;
+  gap: 10px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  box-sizing: border-box;
+  margin: 0px 10px 10px 0;
+}
+
+.links__link,
+.links__title {
+  font-size: 20px;
+  font-size: 1.4;
+  color: #57606a;
+}
+
+.links__link {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px 0px 10px;
+  gap: 30px;
+  border-bottom: 1px solid hsla(210, 18%, 87%, 1);
+  width: 300px;
+}
+
+.links__link:last-child {
+  border-bottom: none;
+}
+
+.linsk__link,
+.links__link:visited {
+  text-decoration: none;
+  color: #0969da;
+}
+
+.links__title {
+  margin: 0;
+  min-width: 100px;
+}
+
+footer {
+  margin: 0 0 40px 0;
+}
